@@ -1,0 +1,47 @@
+.report{
+    color: rgb(211, 209, 209);
+    background-color:rgb(48, 148, 214);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.apoint{
+    margin: 10px;
+    width: 98%;
+    box-shadow: 2px 2px 1px rgba(128, 128, 128, 0.212);
+}
+.btn-upcome{
+    width: 50%;
+    color: rgb(48, 148, 214);
+}
+.btn-past{
+    width: 50%;
+    float: right;
+    color: grey;
+    background-color: rgba(128, 128, 128, 0.397);
+}
+.keys{
+    width: 98%;
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    /* padding-left: 16%; */
+}
+.btn-inquiry{
+    color: grey;
+    width: 50%;
+    border-radius: 0px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.212);
+}
+.btn-appointment{
+    color: rgb(48, 148, 214);
+    border-radius: 0px;
+    border: 0px;
+    width: 50%;
+    float: right;
+    border-bottom: 2px solid rgb(48, 148, 214);
+}
+.reason{
+    color: white !important;
+}

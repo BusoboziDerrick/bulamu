@@ -1,0 +1,44 @@
+.Panel{
+    min-height: 8vh;
+    /* background-color: darkslateblue; */
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(48, 148, 214);
+    
+
+}
+.header{
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+
+}
+.title{
+    color: rgb(48, 148, 214);
+    font-size: 15px;
+    font-weight: bold;
+}
+.fa-list{
+    float: left;
+    color: rgb(48, 148, 214);
+    display: inherit;
+
+}
+.searchInput{
+    float: right;
+    border-radius: 5px;
+    display: inline;
+    border: 1px solid rgb(48, 148, 214);
+    border-color:  rgb(48, 148, 214);
+    background-color: rgba(48, 148, 214, 0);
+    max-width: 50vh;
+    height: 25px;
+    color: rgb(48, 148, 214);
+    font-size: 12px;
+}
+.fa-search{
+    float: right;
+    flex-direction: row;
+    padding-left: 5px;
+    color:  rgb(48, 148, 214);
+}

@@ -1,0 +1,29 @@
+.Profession{
+    min-height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(48, 148, 214);
+    
+}
+.continue{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn-healthWorker{
+    width: 35%;
+    max-height: 40px;
+    margin: 20px;
+    color: whitesmoke;
+    background-color:rgb(48, 148, 214);
+}
+.btn-client{
+    margin: 20px;
+    width: 35%;
+    max-height: 40px;
+    color: whitesmoke;
+    background-color:rgb(48, 148, 214);
+}

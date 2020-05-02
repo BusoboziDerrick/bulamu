@@ -1,0 +1,33 @@
+.Kys{
+    
+    max-height: max-content;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+    /* display: inline; */
+    width: 98%;
+}
+.btn-defaulty{
+    color: rgb(48, 148, 214);
+    border-radius: 0px;
+    border: 0px;
+    width: 50%;
+    border-bottom: 5px solid rgb(48, 148, 214);
+}
+.btn-default{
+    /* display: inline; */
+    color: grey;
+    float: right;
+    width: 50%;
+    border-radius: 0px;
+    
+}
+.table{
+    /* max-width: 100%; */
+}
+.t1{
+    width: 50%;
+}
+.t2{
+    width: 50%;
+}

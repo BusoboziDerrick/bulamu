@@ -1,0 +1,59 @@
+.Content{
+    /* background-color: rgba(75, 73, 73, 0.418); */
+    /* min-height: 10vh; */
+    /* display: inline; */
+   
+}
+.Item{
+   /* margin: 1px; */
+   height: 53px;
+   
+   border-bottom: 0.1px solid rgba(128, 128, 128, 0.664);
+}
+
+.comment{
+    color: #eeee;
+    margin-left: 60px;
+    margin-top: -10px;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+}
+.name{
+    color: black;
+    display: inherit;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+.time{
+    float: right;
+    font-size: 10px;
+    margin-right: 5px;
+    color: grey;
+}
+.commentcount{    
+    display: inherit;
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+    background-color: rgb(48, 148, 214);
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    float: right;
+    justify-content: center;
+    margin-top: 1px;
+    margin-right:5px;
+}
+.avatar{
+    margin-top: 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.445);
+    margin: 5px;
+}

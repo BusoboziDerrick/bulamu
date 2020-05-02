@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Bulamu from './Bulamu';
+import Panel from './Panel';
+import Content from './Content';
+import Hworkers from './Hworker';
+import Kys from './Kys';
+import Login from './Login';
+import Profession from './Profession';
+import Appointment from './Appointment';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//ReactDOM.render(<bulamu />,document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//  var mount = document.querySelector('#root');
+//  ReactDOM.render(<Content Hworkers={Hworkers} /> , mount);
+
+//ReactDOM.render(<Kys />,document.getElementById('root'));
+
+ReactDOM.render(<Profession />,document.getElementById('root'));
+
+// ReactDOM.render(<Login />,document.getElementById('root'));
+ReactDOM.render(<Appointment />,document.getElementById('root'));
